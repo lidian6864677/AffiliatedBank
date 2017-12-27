@@ -18,6 +18,7 @@
 		84EE85D51FF37FFF007F8863 /* NSString+Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE85D41FF37FFF007F8863 /* NSString+Handler.m */; };
 		84EE85D81FF380DF007F8863 /* BankCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE85D61FF380DE007F8863 /* BankCardViewController.m */; };
 		84EE85DB1FF38232007F8863 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE85DA1FF38232007F8863 /* UIView+Extension.m */; };
+		84EE85DC1FF38B29007F8863 /* AffiliateBank.plist in Sources */ = {isa = PBXBuildFile; fileRef = 84EE85CC1FF37F3D007F8863 /* AffiliateBank.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -282,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EE85DC1FF38B29007F8863 /* AffiliateBank.plist in Sources */,
 				84EE85DB1FF38232007F8863 /* UIView+Extension.m in Sources */,
 				84EE859F1FF37F0B007F8863 /* ViewController.m in Sources */,
 				84EE85AA1FF37F0B007F8863 /* main.m in Sources */,
