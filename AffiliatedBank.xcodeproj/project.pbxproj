@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84EE859C1FF37F0B007F8863 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE859B1FF37F0B007F8863 /* AppDelegate.m */; };
+		84EE859F1FF37F0B007F8863 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE859E1FF37F0B007F8863 /* ViewController.m */; };
+		84EE85A21FF37F0B007F8863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EE85A01FF37F0B007F8863 /* Main.storyboard */; };
+		84EE85A41FF37F0B007F8863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EE85A31FF37F0B007F8863 /* Assets.xcassets */; };
+		84EE85A71FF37F0B007F8863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EE85A51FF37F0B007F8863 /* LaunchScreen.storyboard */; };
+		84EE85AA1FF37F0B007F8863 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE85A91FF37F0B007F8863 /* main.m */; };
+		84EE85B41FF37F0B007F8863 /* AffiliatedBankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE85B31FF37F0B007F8863 /* AffiliatedBankTests.m */; };
+		84EE85BF1FF37F0B007F8863 /* AffiliatedBankUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE85BE1FF37F0B007F8863 /* AffiliatedBankUITests.m */; };
+		84EE85D51FF37FFF007F8863 /* NSString+Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE85D41FF37FFF007F8863 /* NSString+Handler.m */; };
+		84EE85D81FF380DF007F8863 /* BankCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE85D61FF380DE007F8863 /* BankCardViewController.m */; };
+		84EE85DB1FF38232007F8863 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE85DA1FF38232007F8863 /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84EE85B01FF37F0B007F8863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EE858F1FF37F0B007F8863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84EE85961FF37F0B007F8863;
+			remoteInfo = AffiliatedBank;
+		};
+		84EE85BB1FF37F0B007F8863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EE858F1FF37F0B007F8863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84EE85961FF37F0B007F8863;
+			remoteInfo = AffiliatedBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84EE85971FF37F0B007F8863 /* AffiliatedBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AffiliatedBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EE859A1FF37F0B007F8863 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84EE859B1FF37F0B007F8863 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84EE859D1FF37F0B007F8863 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84EE859E1FF37F0B007F8863 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84EE85A11FF37F0B007F8863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84EE85A31FF37F0B007F8863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84EE85A61FF37F0B007F8863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84EE85A81FF37F0B007F8863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EE85A91FF37F0B007F8863 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84EE85AF1FF37F0B007F8863 /* AffiliatedBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffiliatedBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EE85B31FF37F0B007F8863 /* AffiliatedBankTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AffiliatedBankTests.m; sourceTree = "<group>"; };
+		84EE85B51FF37F0B007F8863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EE85BA1FF37F0B007F8863 /* AffiliatedBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffiliatedBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EE85BE1FF37F0B007F8863 /* AffiliatedBankUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AffiliatedBankUITests.m; sourceTree = "<group>"; };
+		84EE85C01FF37F0B007F8863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EE85CC1FF37F3D007F8863 /* AffiliateBank.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AffiliateBank.plist; sourceTree = "<group>"; };
+		84EE85D31FF37FFF007F8863 /* NSString+Handler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Handler.h"; sourceTree = "<group>"; };
+		84EE85D41FF37FFF007F8863 /* NSString+Handler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Handler.m"; sourceTree = "<group>"; };
+		84EE85D61FF380DE007F8863 /* BankCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankCardViewController.m; sourceTree = "<group>"; };
+		84EE85D71FF380DE007F8863 /* BankCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankCardViewController.h; sourceTree = "<group>"; };
+		84EE85D91FF38232007F8863 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		84EE85DA1FF38232007F8863 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84EE85941FF37F0B007F8863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EE85AC1FF37F0B007F8863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EE85B71FF37F0B007F8863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84EE858E1FF37F0B007F8863 = {
+			isa = PBXGroup;
+			children = (
+				84EE85991FF37F0B007F8863 /* AffiliatedBank */,
+				84EE85B21FF37F0B007F8863 /* AffiliatedBankTests */,
+				84EE85BD1FF37F0B007F8863 /* AffiliatedBankUITests */,
+				84EE85981FF37F0B007F8863 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84EE85981FF37F0B007F8863 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84EE85971FF37F0B007F8863 /* AffiliatedBank.app */,
+				84EE85AF1FF37F0B007F8863 /* AffiliatedBankTests.xctest */,
+				84EE85BA1FF37F0B007F8863 /* AffiliatedBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84EE85991FF37F0B007F8863 /* AffiliatedBank */ = {
+			isa = PBXGroup;
+			children = (
+				84EE85D31FF37FFF007F8863 /* NSString+Handler.h */,
+				84EE85D41FF37FFF007F8863 /* NSString+Handler.m */,
+				84EE85D91FF38232007F8863 /* UIView+Extension.h */,
+				84EE85DA1FF38232007F8863 /* UIView+Extension.m */,
+				84EE85CC1FF37F3D007F8863 /* AffiliateBank.plist */,
+				84EE859A1FF37F0B007F8863 /* AppDelegate.h */,
+				84EE859B1FF37F0B007F8863 /* AppDelegate.m */,
+				84EE85D71FF380DE007F8863 /* BankCardViewController.h */,
+				84EE85D61FF380DE007F8863 /* BankCardViewController.m */,
+				84EE859D1FF37F0B007F8863 /* ViewController.h */,
+				84EE859E1FF37F0B007F8863 /* ViewController.m */,
+				84EE85A01FF37F0B007F8863 /* Main.storyboard */,
+				84EE85A31FF37F0B007F8863 /* Assets.xcassets */,
+				84EE85A51FF37F0B007F8863 /* LaunchScreen.storyboard */,
+				84EE85A81FF37F0B007F8863 /* Info.plist */,
+				84EE85A91FF37F0B007F8863 /* main.m */,
+			);
+			path = AffiliatedBank;
+			sourceTree = "<group>";
+		};
+		84EE85B21FF37F0B007F8863 /* AffiliatedBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				84EE85B31FF37F0B007F8863 /* AffiliatedBankTests.m */,
+				84EE85B51FF37F0B007F8863 /* Info.plist */,
+			);
+			path = AffiliatedBankTests;
+			sourceTree = "<group>";
+		};
+		84EE85BD1FF37F0B007F8863 /* AffiliatedBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84EE85BE1FF37F0B007F8863 /* AffiliatedBankUITests.m */,
+				84EE85C01FF37F0B007F8863 /* Info.plist */,
+			);
+			path = AffiliatedBankUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84EE85961FF37F0B007F8863 /* AffiliatedBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EE85C31FF37F0B007F8863 /* Build configuration list for PBXNativeTarget "AffiliatedBank" */;
+			buildPhases = (
+				84EE85931FF37F0B007F8863 /* Sources */,
+				84EE85941FF37F0B007F8863 /* Frameworks */,
+				84EE85951FF37F0B007F8863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AffiliatedBank;
+			productName = AffiliatedBank;
+			productReference = 84EE85971FF37F0B007F8863 /* AffiliatedBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84EE85AE1FF37F0B007F8863 /* AffiliatedBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EE85C61FF37F0B007F8863 /* Build configuration list for PBXNativeTarget "AffiliatedBankTests" */;
+			buildPhases = (
+				84EE85AB1FF37F0B007F8863 /* Sources */,
+				84EE85AC1FF37F0B007F8863 /* Frameworks */,
+				84EE85AD1FF37F0B007F8863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84EE85B11FF37F0B007F8863 /* PBXTargetDependency */,
+			);
+			name = AffiliatedBankTests;
+			productName = AffiliatedBankTests;
+			productReference = 84EE85AF1FF37F0B007F8863 /* AffiliatedBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84EE85B91FF37F0B007F8863 /* AffiliatedBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EE85C91FF37F0B007F8863 /* Build configuration list for PBXNativeTarget "AffiliatedBankUITests" */;
+			buildPhases = (
+				84EE85B61FF37F0B007F8863 /* Sources */,
+				84EE85B71FF37F0B007F8863 /* Frameworks */,
+				84EE85B81FF37F0B007F8863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84EE85BC1FF37F0B007F8863 /* PBXTargetDependency */,
+			);
+			name = AffiliatedBankUITests;
+			productName = AffiliatedBankUITests;
+			productReference = 84EE85BA1FF37F0B007F8863 /* AffiliatedBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84EE858F1FF37F0B007F8863 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Dian;
+				TargetAttributes = {
+					84EE85961FF37F0B007F8863 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					84EE85AE1FF37F0B007F8863 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84EE85961FF37F0B007F8863;
+					};
+					84EE85B91FF37F0B007F8863 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84EE85961FF37F0B007F8863;
+					};
+				};
+			};
+			buildConfigurationList = 84EE85921FF37F0B007F8863 /* Build configuration list for PBXProject "AffiliatedBank" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84EE858E1FF37F0B007F8863;
+			productRefGroup = 84EE85981FF37F0B007F8863 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84EE85961FF37F0B007F8863 /* AffiliatedBank */,
+				84EE85AE1FF37F0B007F8863 /* AffiliatedBankTests */,
+				84EE85B91FF37F0B007F8863 /* AffiliatedBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84EE85951FF37F0B007F8863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EE85A71FF37F0B007F8863 /* LaunchScreen.storyboard in Resources */,
+				84EE85A41FF37F0B007F8863 /* Assets.xcassets in Resources */,
+				84EE85A21FF37F0B007F8863 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EE85AD1FF37F0B007F8863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EE85B81FF37F0B007F8863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84EE85931FF37F0B007F8863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EE85DB1FF38232007F8863 /* UIView+Extension.m in Sources */,
+				84EE859F1FF37F0B007F8863 /* ViewController.m in Sources */,
+				84EE85AA1FF37F0B007F8863 /* main.m in Sources */,
+				84EE85D51FF37FFF007F8863 /* NSString+Handler.m in Sources */,
+				84EE859C1FF37F0B007F8863 /* AppDelegate.m in Sources */,
+				84EE85D81FF380DF007F8863 /* BankCardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EE85AB1FF37F0B007F8863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EE85B41FF37F0B007F8863 /* AffiliatedBankTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EE85B61FF37F0B007F8863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EE85BF1FF37F0B007F8863 /* AffiliatedBankUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84EE85B11FF37F0B007F8863 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84EE85961FF37F0B007F8863 /* AffiliatedBank */;
+			targetProxy = 84EE85B01FF37F0B007F8863 /* PBXContainerItemProxy */;
+		};
+		84EE85BC1FF37F0B007F8863 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84EE85961FF37F0B007F8863 /* AffiliatedBank */;
+			targetProxy = 84EE85BB1FF37F0B007F8863 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84EE85A01FF37F0B007F8863 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EE85A11FF37F0B007F8863 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84EE85A51FF37F0B007F8863 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EE85A61FF37F0B007F8863 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84EE85C11FF37F0B007F8863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84EE85C21FF37F0B007F8863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84EE85C41FF37F0B007F8863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AffiliatedBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dian.AffiliatedBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84EE85C51FF37F0B007F8863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AffiliatedBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dian.AffiliatedBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84EE85C71FF37F0B007F8863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AffiliatedBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dian.AffiliatedBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AffiliatedBank.app/AffiliatedBank";
+			};
+			name = Debug;
+		};
+		84EE85C81FF37F0B007F8863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AffiliatedBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dian.AffiliatedBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AffiliatedBank.app/AffiliatedBank";
+			};
+			name = Release;
+		};
+		84EE85CA1FF37F0B007F8863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AffiliatedBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dian.AffiliatedBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AffiliatedBank;
+			};
+			name = Debug;
+		};
+		84EE85CB1FF37F0B007F8863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AffiliatedBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dian.AffiliatedBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AffiliatedBank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84EE85921FF37F0B007F8863 /* Build configuration list for PBXProject "AffiliatedBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EE85C11FF37F0B007F8863 /* Debug */,
+				84EE85C21FF37F0B007F8863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EE85C31FF37F0B007F8863 /* Build configuration list for PBXNativeTarget "AffiliatedBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EE85C41FF37F0B007F8863 /* Debug */,
+				84EE85C51FF37F0B007F8863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EE85C61FF37F0B007F8863 /* Build configuration list for PBXNativeTarget "AffiliatedBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EE85C71FF37F0B007F8863 /* Debug */,
+				84EE85C81FF37F0B007F8863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EE85C91FF37F0B007F8863 /* Build configuration list for PBXNativeTarget "AffiliatedBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EE85CA1FF37F0B007F8863 /* Debug */,
+				84EE85CB1FF37F0B007F8863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84EE858F1FF37F0B007F8863 /* Project object */;
+}
